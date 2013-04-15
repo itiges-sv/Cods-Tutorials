@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Mini Twitter Demo</title>
+	<link rel="stylesheet" type="text/css" href="http://css.cdn.tl/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/estilos.css" />
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src = "js/main.js"></script>
+</head>
+<body>
+	
+	<header>
+		<h1>Mini Twitter Demo</h1>
+	</header>
+
+	<section id="loginPane">
+		
+		<article id = "login">
+			<p><span id="error" class="error"></span></p>
+			<input type = "text"  placeholder="Usuario..." id = "usuario" name ="usuario"><br>
+			<input type = "password" placeholder="Contraseña..." id="pass" name = "pass"><br>
+			<input type = "button" id="login_btn" name  = "login_btn" value = "Entrar"/>	
+
+		</article>
+
+	</section>
+
+	<section id="panel">
+
+		<article id = "tweetbox" class="tweetboxHidden">
+			<textarea cols="40" rows="4" placeholder="Mensaje" id="mensaje" autofocus required>
+			</textarea>
+			<button id="tweet_btn">Tweet</button>
+		</article>
+
+		<article id="tweets" class="tweetsHidden">
+			<!--<div class = "tweet-container">Este es un tweet</div>
+			<div class = "tweet-container">Este es un tweet</div>
+			<div class = "tweet-container">Este es un tweet</div>
+			<div class = "tweet-container">Este es un tweet</div>
+			<div class = "tweet-container">Este es un tweet</div>-->
+		</article>
+
+	</section>
+
+	<footer>
+		<a href="mailto:blandon.jaime@gmail.com">Correo</a>
+	</footer>
+
+</body>
+</html>
